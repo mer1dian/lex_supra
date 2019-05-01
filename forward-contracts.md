@@ -2,52 +2,43 @@
 
 Overview
 
-
-
-
-
-Main Attributes 
+Main Attributes
 
 Self-Describing Network Address
 
-Contract Binding Header 
+Contract Binding Header
 
 Master Framework \(Agreement, SLA, Participation, Base CoC\)
 
 Semi-Fungible Token Kernel
 
-
-
 |  |  |
 | :--- | :--- |
-| Smart Contract Token Instrument  | Token minted from DMF\(Designated Minting Facility\) |
-| Self Describing Network Address  | Points to Distributed Registry Contract |
+| Smart Contract Token Instrument | Token minted from DMF\(Designated Minting Facility\) |
+| Self Describing Network Address | Points to Distributed Registry Contract |
 | SDNA Contract Bindings | Points to Unique Contract Proxy Contract |
 | Master Framework Agreement | All Base Layer Business Contracts \(SLA, CoC, etc\) |
-| Qualified Signature Attestation  | PKI and x.509 Certificates of Verified Persons  |
+| Qualified Signature Attestation | PKI and x.509 Certificates of Verified Persons |
 | Coding Group Identification Number | SCAC, PRO, UUID, etc |
 |  |  |
 
-  
-
-
 Self Describing Network Address Contract Binding \(SDNACB\)
 
-     Schema
+```
+ Schema
 
-     Logic
+ Logic
 
-     Counterparties
+ Counterparties
 
-     Network Instance
+ Network Instance
 
-     External Sources
+ External Sources
 
-     Agreement Identifier
+ Agreement Identifier
 
-     x509 Certificate 
-
-
+ x509 Certificate 
+```
 
 ### Freight Carrige and Service Master Agreement
 
@@ -92,9 +83,9 @@ Master Transaction Agreement
  VICS \(corporate templates\)
 ```
 
-| d |
+|  |
 | :---: |
-
+|  |
 
 
 
