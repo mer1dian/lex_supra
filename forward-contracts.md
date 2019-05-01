@@ -4,6 +4,8 @@ Overview
 
 Main Attributes
 
+
+
 Self-Describing Network Address
 
 Contract Binding Header
@@ -11,6 +13,8 @@ Contract Binding Header
 Master Framework \(Agreement, SLA, Participation, Base CoC\)
 
 Semi-Fungible Token Kernel
+
+
 
 |  |  |
 | :--- | :--- |
@@ -37,7 +41,7 @@ Self Describing Network Address Contract Binding \(SDNACB\)
 
  Agreement Identifier
 
- x509 Certificate 
+ x509 Certificate
 ```
 
 ### Freight Carrige and Service Master Agreement
