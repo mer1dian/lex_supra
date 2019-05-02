@@ -1,4 +1,20 @@
-Fail Safe Mechanism
+# Operational Safeguards and Systems Continuity
+
+> ##### We aim for 99.99999% Uptime
+
+##### 
+
+### Topics;
+
+* Systems development and quality assurance 
+* Systems operations
+* Execution and Contract Behavior 
+* Business continuity-disaster recovery planning and resources;
+* Capacity and performance planning;
+* Exogenus Event Planning 
+* IT Security
+
+### Fail Safe Mechanism
 
 Smart contracts may not include appropriate or sufficient backup / failover mechanisms in case something goes awry.
 
@@ -19,10 +35,6 @@ Smart contracts may not include appropriate or sufficient backup / failover mech
 * [x] Functional Lanaguage Approach to design \(e.g. KVM\)
 
 FailSafe Switch -
-
-
-
-
 
 ## Active Monitoring
 
