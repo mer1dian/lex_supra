@@ -11,4 +11,5 @@
 * [Parametric Forwards](parametric-forwards.md)
 * [Legal Structure](legal-structure.md)
 * [ccp](ccp.md)
+* [Demateralizing Bills of Lading](demateralizing-bills-of-lading.md)
 
