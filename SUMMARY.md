@@ -12,4 +12,6 @@
 * [Legal Structure](legal-structure.md)
 * [ccp](ccp.md)
 * [Demateralizing Bills of Lading](demateralizing-bills-of-lading.md)
+* [Operational Safeguards](operational-safeguards.md)
+* [Similarities to existing regulatory frameworks](similarities-to-existing-regulatory-frameworks.md)
 
