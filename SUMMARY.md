@@ -9,4 +9,6 @@
 * [EIP Roadmaps](eip-roadmaps.md)
 * [Safety and Continiuty ](safety-and-continiuty.md)
 * [Parametric Forwards](parametric-forwards.md)
+* [Legal Structure](legal-structure.md)
+* [ccp](ccp.md)
 

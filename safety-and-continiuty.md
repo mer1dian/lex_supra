@@ -1,22 +1,16 @@
-Fail Safe Mechanism 
+Fail Safe Mechanism
 
+Smart contracts may not include appropriate or sufficient backup / failover mechanisms in case something goes awry.
 
+• Smart contracts may depend on other systems to fulfill contract terms. These other systems may have vulnerabilities that could prevent the smart contract from functioning as intended.
 
+• Some smart contract platforms may be missing critical system safeguards and customer protections.
 
+• Where smart contracts are linked to a blockchain, forks in the chain could create operational problems.
 
-Smart contracts may not include appropriate or sufficient backup / failover mechanisms in case something goes awry. 
-
-• Smart contracts may depend on other systems to fulfill contract terms. These other systems may have vulnerabilities that could prevent the smart contract from functioning as intended. 
-
-• Some smart contract platforms may be missing critical system safeguards and customer protections. 
-
-• Where smart contracts are linked to a blockchain, forks in the chain could create operational problems. 
-
-• In case of an operational failure, recourse may be limited or non-existent – complete loss of a virtual asset is possible. 
+• In case of an operational failure, recourse may be limited or non-existent – complete loss of a virtual asset is possible.
 
 • Poor governance. Smart contracts may require attention, action, and possible revision subject to appropriate governance and liability mechanisms.
-
-
 
 * [x] Low Level Monotiroing of Deployed Contracts \(e.g. QuickBlocks\)
 * [x] Failsafe mechanism to return to us in case of attack or error 
@@ -24,23 +18,21 @@ Smart contracts may not include appropriate or sufficient backup / failover mech
 * [x] Auditing by 3rd Party
 * [x] Functional Lanaguage Approach to design \(e.g. KVM\)
 
-FailSafe Switch - 
+FailSafe Switch -
 
 
 
-Active Monitoring 
 
 
+## Active Monitoring
 
-**Smart Contract Monitoring:**
+## **Smart Contract Monitoring:**
 
 * Actively monitor one \(or more\) Ethereum smart contracts and user accounts \(or any combination\) watching for odd or ‘known-dangerous’ transactional patterns. Report to anomalies to a list of email, SMS, web site, or individuals whenever something of interest happens.
 
 | End Users: | Smart contract developers, smart contract participants \(i.e. token holders\) |
 | :--- | :--- |
 | Notes: | ‘Weird’ things include recursive attacks, violations of invariants \(token balances to ether balance\), largest purchases, most active trader accounts, etc.; Could potentially spawn an “insured” smart contract industry expectation. |
-
-
 
 **Smart Contract Reporting:**
 
@@ -49,8 +41,6 @@ Active Monitoring
 | End Users: | Smart contract developers, smart contract participants \(i.e. token holders\), economists, regulators |
 | :--- | :--- |
 | Notes: | Allows for self-reporting on business processes, expenditures, and revenue from outside an organization–no need to wait for company reports; marketing efforts might engender an expectation that every smart contract’s accounting is fully transparent. |
-
-
 
 **Auditing Support:**
 
