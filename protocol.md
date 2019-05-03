@@ -37,8 +37,6 @@ function transferWithData(address recipient, uint256 value, bytes data)
 * Enables Agreement to be as homogonized or unique as needed, thereby extending possiblity of liquidity 
 * Eth
 
-
-
 **Novel ERC &lt;EIP&gt;**
 
 TransformAttribute
@@ -107,6 +105,54 @@ Deep Dependency:
 | hasAttribute |  |
 | symbol | Self Describing Contract Parameters |
 |  |  |
+
+
+
+'
+
+
+
+
+
+#### Templates and Parameters 
+
+
+
+A template is an electronic representation of a legal document as issued by a standards body — for example, by the International Swaps and Derivatives Association \(ISDA\). As illustrated in Figure 2, a template contains both legal prose and parameters, where each parameter has an identity \(a unique name\), a type, and may \(but need not\) have a value.d
+
+
+
+
+
+
+
+
+
+> > ![](/assets/Screenshot 2019-05-03 11.49.26.png)
+
+
+
+A template may contain both legal prose and parameters. Each parameter has an identifier \(a name\), a type, and an optional value. Agreements are derived from templates, and both the legal prose and parameters may be customised during negotiation. Values are mandatory for all parameters in a signed agreement.
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+---
 
 
 
