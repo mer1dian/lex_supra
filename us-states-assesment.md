@@ -9,8 +9,7 @@ Exemptions / Exclusions to State Licenses
 
 * a person that provides clearance or settlement services pursuant to a registration as a clearing agency or an exemption from such registration granted under the federal securities laws to the extent of its operation as such a provider;
 
-* an operator of a payment system to the extent that it provides processing, clearing, or settlement services, between or among persons excluded by this section, in connection with wire transfers, credit card transactions, debit card transactions, stored-value transactions, automated clearing house transfers, similar funds transfers, or prepaid access;  
-  \(
+* an operator of a payment system to the extent that it provides processing, clearing, or settlement services, between or among persons excluded by this section, in connection with wire transfers, credit card transactions, debit card transactions, stored-value transactions, automated clearing house transfers, similar funds transfers, or prepaid access;
 
 * a person registered as a securities broker-dealer under federal or state securities laws to the extent of its operation as such a broker-dealer;
 
@@ -18,13 +17,8 @@ Exemptions / Exclusions to State Licenses
 | :--- |
 
 
-  
-
-
 | **Payment instrument** means any electronic or written check, draft, money order, traveler’s check or other electronic or written instrument or order for transmitting or paying money, sold or issued to one or more persons, whether or not the instrument is negotiable. Payment instrument does not include any credit card voucher, any letter of credit or any instrument that is redeemable by the issuer in goods or services. |
 | :--- |
-
-
 
 
 
