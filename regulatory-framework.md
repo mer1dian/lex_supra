@@ -48,17 +48,18 @@ Although the precise expectations for any given MSB will vary based on the natur
 * monitoring and reporting suspicious activity by filing SARs with FinCEN, which generally is triggered at a $2,000 threshold for MSBs;618
 * subject to dollar thresholds, filing Currency Transaction Reports619 and Currency and Other Monetary Instrument Reports with the U.S. government;620
 * maintaining required records;621 and
-* responding to certain law enforcement requests.622
+* responding to certain law enforcement requests.62
 
 
 
----
-
-
-
-# EuroZone
+> | In December 2015, the Tennessee Department of Financial Institutions issued a memorandum concluding that the transmission of cryptocurrency is not subject to regulation under the State’s Money Transmitter Act if the transmission does not also involve sovereign currency. The memorandum also discusses other common scenarios. |
+> | :--- |
 
 # 
+
+EuroZone
+
+
 
 MiFID II is a European Directive that regulates firms that provide services to clients linked to “financial instruments” and the venues in which those instruments trade in the European Union.636 Broadly speaking, MiFID II “aims to create a single market for investment services and activities and to ensure a high degree of harmonised protection for investors in financial instruments.”637 Firms that provide investment services in relation to financial instruments, as defined in MiFID II, in turn must comply with MiFID II requirements.638
 
