@@ -39,8 +39,6 @@ function transferWithData(address recipient, uint256 value, bytes data)
 
 
 
-
-
 **Novel ERC &lt;EIP&gt;**
 
 TransformAttribute
