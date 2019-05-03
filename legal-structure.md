@@ -1,8 +1,4 @@
-
-
 Enabling Continuted and Updated Legal Agreements
-
-
 
 **x.509 Certificates **
 
@@ -16,13 +12,6 @@ Enabling Continuted and Updated Legal Agreements
 
 Authentication Registry \(smart contracts\)
 
-
-
-
-
-  
-p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 44.0px Helvetica; color: \#4675a4}  
-p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 30.0px Helvetica; color: \#919191}  
 
 
 Meeting MLETR Requirements
@@ -49,12 +38,8 @@ integrity \(any changes to the record must be
 
 identifiable\).
 
-
-
-  
 p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 44.0px Helvetica; color: \#4675a4}  
-p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 21.0px Helvetica; color: \#919191}  
-
+p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 21.0px Helvetica; color: \#919191}
 
 Meeting MLETR Requirements
 

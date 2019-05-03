@@ -51,10 +51,6 @@ DefineTransformInterface
 
 InvokeEmission
 
-
-
-
-
 Smart Contract
 
 a **registry** is a deployed contract which manages a collection of packages.
