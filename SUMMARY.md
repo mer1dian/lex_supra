@@ -17,4 +17,5 @@
 * [References](references.md)
 * [Issues & Concerns](issues-and-concerns.md)
 * [Regulatory Framework](regulatory-framework.md)
+* [U.S. States Assesment](us-states-assesment.md)
 
