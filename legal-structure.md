@@ -1,3 +1,40 @@
+
+
+# Functional and legal equiviliance provisions for dematerilizing shipping documents
+
+  
+Visually replicate paper bills, preserving the often industry / custom specific layout;
+
+> b. Replicate the function of paper bills, including a party’s ability to issue, indorse, recut or surrender the e-bill;
+>
+> c. Replicate the physical transfer of paper bills and, whilst all parties can view an e-bill \(in copy form\), the trading platform restricts access and indorsement to the current lawful holder \(by way of fob and access code\) as the e-bills securely move from one party to the next; and
+>
+> d. Can be converted into paper bills, allowing them to be finally traded with parties which have not signed up to the ETS platform. However, it is notable that paper bills cannot be converted into e-bills since none of the ETS would be prepared to investigate and effectively warrant the provenance of paper bills and the physical cargo they represent.
+
+  
+
+
+|  |
+| :--- |
+
+
+  
+
+
+Replacement of a transferable document or instrument with an electronic transferable record
+
+1. An electronic transferable record may replace a transferable document or instrument if a reliable method for the change of medium is used.
+
+2. For the change of medium to take effect, a statement indicating a change of medium shall be inserted in the electronic transferable record.
+
+3. Upon issuance of the electronic transferable record in accordance with paragraphs 1 and 2, the transferable document or instrument shall be made inoperative and ceases to have any effect or validity.
+
+4. A change of medium in accordance with paragraphs 1 and 2 shall not affect the rights and obligations of the parties.
+
+
+
+
+
 Enabling Continuted and Updated Legal Agreements
 
 **x.509 Certificates **
@@ -11,8 +48,6 @@ Enabling Continuted and Updated Legal Agreements
 **Credential Authentication Facility **\(smart contract kernel\)
 
 Authentication Registry \(smart contracts\)
-
-
 
 Meeting MLETR Requirements
 
