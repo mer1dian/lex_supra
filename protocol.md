@@ -35,8 +35,25 @@ function transferWithData(address recipient, uint256 value, bytes data)
 
 * AddressID specifices which package is used for that operation/interogatives and subordinate clauses  
 * Enables Agreement to be as homogonized or unique as needed, thereby extending possiblity of liquidity 
-* 
-Eth
+* Eth
+
+
+
+
+
+**Novel ERC &lt;EIP&gt;**
+
+TransformAttribute
+
+TranformInterface
+
+DefineTransformInterface
+
+InvokeEmission
+
+
+
+
 
 Smart Contract
 
@@ -59,10 +76,6 @@ the **Kernel** compromises interlocking contracts that execute operations by inv
 ```
 Registry -> Package [libsol, kernel...] -> Release [specific contract updates] -> latest release
 ```
-
-
-
-
 
 Stand Alone:    Package has no external dependencies \(i.e. no build\_dependencies\), contains all contract data needed without reaching into another package.
 
@@ -90,12 +103,6 @@ Deep Dependency:
  External dependency referenced via the build\_dependencies of a package dependency \(or by reaching down dependency tree as far as necessary\).
 ```
 
-
-
-
-
-
-
 |  |  |
 | :--- | :--- |
 | defaultOperator | Freight Trust, _Network Operations _ |
@@ -104,7 +111,7 @@ Deep Dependency:
 | setManager | Deployed On-Contracts, _Network Operations_ |
 | getAttributeTypeID |  |
 | hasAttribute |  |
-| symbol | Self Describing Contract Parameters  |
+| symbol | Self Describing Contract Parameters |
 |  |  |
 
 
