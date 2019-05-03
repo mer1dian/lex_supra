@@ -16,4 +16,5 @@
 * [Similarities to existing regulatory frameworks](similarities-to-existing-regulatory-frameworks.md)
 * [References](references.md)
 * [Issues & Concerns](issues-and-concerns.md)
+* [Regulatory Framework](regulatory-framework.md)
 
