@@ -1,5 +1,21 @@
 protocol
 
+
+
+
+
+```markdown
+Contract Instrument 
+
+Unique Address
+
+Agreement Identifier 
+
+Data Field for Signature Injection <Triggering_Event>
+
+
+```
+
 Semi-NFT
 
 | ERC777 |
@@ -47,15 +63,7 @@ function transferWithData(address recipient, uint256 value, bytes data)
 
 ~~InvokeEmission~~
 
-
-
-
-
 Smart Contract
-
-
-
-
 
 a **registry** is a deployed contract which manages a collection of packages.
 
@@ -116,7 +124,7 @@ Deep Dependency:
 
 '
 
-#### Templates and Parameters
+#### Templates, Agreements and Parameters
 
 A template is an electronic representation of a legal document as issued by a standards body — for example, by the International Swaps and Derivatives Association \(ISDA\). As illustrated in Figure 2, a template contains both legal prose and parameters, where each parameter has an identity \(a unique name\), a type, and may \(but need not\) have a value.d
 
@@ -125,6 +133,16 @@ A template is an electronic representation of a legal document as issued by a st
 A template may contain both legal prose and parameters. Each parameter has an identifier \(a name\), a type, and an optional value. Agreements are derived from templates, and both the legal prose and parameters may be customised during negotiation. Values are mandatory for all parameters in a signed agreement.
 
 ---
+
+
+
+A Viable Systems Model approach 
+
+
+
+
+
+Contracts 
 
 
 
