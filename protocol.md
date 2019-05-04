@@ -37,17 +37,23 @@ function transferWithData(address recipient, uint256 value, bytes data)
 * Enables Agreement to be as homogonized or unique as needed, thereby extending possiblity of liquidity 
 * Eth
 
-**Novel ERC &lt;EIP&gt;**
+~~**Proprietary ERC &lt;EIP&gt;**~~
 
-TransformAttribute
+~~TransformAttribute~~
 
-TranformInterface
+~~TranformInterface~~
 
-DefineTransformInterface
+~~DefineTransformInterface~~
 
-InvokeEmission
+~~InvokeEmission~~
+
+
+
+
 
 Smart Contract
+
+
 
 
 
