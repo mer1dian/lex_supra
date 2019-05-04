@@ -1,7 +1,5 @@
 # Dematerializing Supply Chain Documents
 
-
-
 > **"We must not make a scarecrow of the law; setting it up to fear the birds of prey and let it keep one shape till custom make it their perch and not their terror."**
 >
 > _**Measure for Measure**_
@@ -11,8 +9,6 @@ Functional equivalence of possession is achieved when a reliable method is emplo
 > An indicative list of transferable documents or instruments includes: bills of exchange, cheques, promissory notes, consignment notes, bills of lading, warehouse receipts, cargo insurance certificates and air waybills.
 
 Substantive Qualities of a
-
-
 
 ---
 
@@ -30,10 +26,17 @@ Weight Pallets/Slips (Y/N)
 Handling Unit Quantity & Type Commodity Description
 Trailer Loaded and Counted Indicator 
 Shipper and Carrier Signatures
-
 ```
 
 
+
+
+
+
+
+## Bill of Lading physical layout 
+
+![](/assets/Screen Shot 2019-05-04 at 3.10.11 AM.png)
 
 
 
