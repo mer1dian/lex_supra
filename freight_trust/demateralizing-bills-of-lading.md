@@ -8,7 +8,13 @@ Functional equivalence of possession is achieved when a reliable method is emplo
 
 > An indicative list of transferable documents or instruments includes: bills of exchange, cheques, promissory notes, consignment notes, bills of lading, warehouse receipts, cargo insurance certificates and air waybills.
 
-Substantive Qualities of a
+
+
+Substantive Qualities of a functional Instrument 
+
+
+
+
 
 ---
 
@@ -28,15 +34,7 @@ Trailer Loaded and Counted Indicator
 Shipper and Carrier Signatures
 ```
 
-
-
-
-
-
-
-## Bill of Lading physical layout 
+## Bill of Lading physical layout
 
 ![](/assets/Screen Shot 2019-05-04 at 3.10.11 AM.png)
-
-
 
