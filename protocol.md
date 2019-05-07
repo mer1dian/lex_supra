@@ -17,7 +17,7 @@ Semi-NFT
 | ERC1400 |
 | ERC1643 Document Managment |
 | ERC1154 |
-| "Bishop" Kernel  |
+| "Bishop" Kernel |
 | "Fulcrum" Adaptor |
 
 **ERC777 implementation - Advanced token standard for asset transfers**
@@ -105,7 +105,7 @@ Deep Dependency:
  External dependency referenced via the build\_dependencies of a package dependency \(or by reaching down dependency tree as far as necessary\).
 ```
 
-|  |  |
+| &lt;/&gt; | Action |
 | :--- | :--- |
 | defaultOperator | Freight Trust, _Network Operations _ |
 | AuthorizedOperator | 3rd Party \(e.g. Invoice Factoring, Insurance, etc\) |
@@ -128,7 +128,7 @@ A template may contain both legal prose and parameters. Each parameter has an id
 
 ---
 
-A Viable Systems Model approach
+~~A Viable Systems Model approach~~
 
-Contracts
+~~Contracts~~
 
