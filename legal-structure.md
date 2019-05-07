@@ -22,6 +22,10 @@ Replacement of a transferable document or instrument with an electronic transfer
 
 4. A change of medium in accordance with paragraphs 1 and 2 shall not affect the rights and obligations of the parties.
 
+
+
+
+
 Enabling Continuted and Updated Legal Agreements
 
 **x.509 Certificates **
@@ -38,17 +42,11 @@ Authentication Registry \(smart contracts\)
 
 Meeting MLETR Requirements
 
-
-
-
-
 ### Meeting MLETR Requirements
 
 ### 
 
 > _Source: Dr. Miriam Goldby_
-
-
 
 • 10\(1\)\(a\): equivalence in terms of content \(but see also Article 6 – additional content not precluded – potential to increase functionality\).
 
@@ -69,8 +67,4 @@ Meeting MLETR Requirements
 \(v\) **Audit: system **may need to be audited prior to going live, and regularly thereafter, to check for vulnerabilities.
 
 \(vi\) **External Assessment and \(vii\) Industry standards**: International Organisation for Standardisation \(ISO\) provides benchmarks against which system may be assessed: Technology-specific standards, as well as general Quality, Risk Management, Business Continuity and Security Management Standards developed by ISO may apply.
-
-
-
-
 

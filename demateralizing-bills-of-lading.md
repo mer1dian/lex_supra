@@ -32,7 +32,33 @@ Shipper and Carrier Signatures
 
 ![](/assets/Screen Shot 2019-05-04 at 3.10.11 AM.png)
 
+---
 
+# 
+
+# Functional and legal equiviliance provisions for dematerilizing shipping documents
+
+Visually replicate paper bills, preserving the often industry / custom specific layout;
+
+> b. Replicate the function of paper bills, including a party’s ability to issue, indorse, recut or surrender the e-bill;
+>
+> c. Replicate the physical transfer of paper bills and, whilst all parties can view an e-bill \(in copy form\), the trading platform restricts access and indorsement to the current lawful holder \(by way of fob and access code\) as the e-bills securely move from one party to the next; and
+>
+> d. Can be converted into paper bills, allowing them to be finally traded with parties which have not signed up to the ETS platform. However, it is notable that paper bills cannot be converted into e-bills since none of the ETS would be prepared to investigate and effectively warrant the provenance of paper bills and the physical cargo they represent.
+
+|  |
+| :--- |
+
+
+Replacement of a transferable document or instrument with an electronic transferable record
+
+1. An electronic transferable record may replace a transferable document or instrument if a reliable method for the change of medium is used.
+
+2. For the change of medium to take effect, a statement indicating a change of medium shall be inserted in the electronic transferable record.
+
+3. Upon issuance of the electronic transferable record in accordance with paragraphs 1 and 2, the transferable document or instrument shall be made inoperative and ceases to have any effect or validity.
+
+4. A change of medium in accordance with paragraphs 1 and 2 shall not affect the rights and obligations of the parties.
 
 
 
@@ -41,8 +67,6 @@ Shipper and Carrier Signatures
 ### 
 
 > _Source: Dr. Miriam Goldby_
-
-
 
 • 10\(1\)\(a\): equivalence in terms of content \(but see also Article 6 – additional content not precluded – potential to increase functionality\).
 
@@ -64,15 +88,11 @@ Shipper and Carrier Signatures
 
 \(vi\) **External Assessment and \(vii\) Industry standards**: International Organisation for Standardisation \(ISO\) provides benchmarks against which system may be assessed: Technology-specific standards, as well as general Quality, Risk Management, Business Continuity and Security Management Standards developed by ISO may apply.
 
-
-
-## Key Takeaways  
+## Key Takeaways
 
 ## 
 
 #### The Main Elements needed to Establish Functional Instrumentization of BoLs
-
-
 
 1. Operational Ruleset
 2. Data Integrity \(and continuity\)
@@ -81,6 +101,10 @@ Shipper and Carrier Signatures
 5. Auditing 
 6. External assessments 
 7. Regulatory Oversight and Compliance
+
+
+
+
 
 
 
