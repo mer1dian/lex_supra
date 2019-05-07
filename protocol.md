@@ -115,8 +115,25 @@ Deep Dependency:
 | hasAttribute |  |
 | symbol | Self Describing Contract Parameters |
 |  |  |
+| **Legal Aspects** |  |
+| documentationIdentification |  |
+| legalAgreement |  |
+| masterAgreement |  |
+| tradeAgreement |  |
+| uniqueAgreement |  |
+| effectiveDate |  |
+| eventDate |  |
+| eventQualifier |  |
+| eventIdentifier |  |
+| lineage |  |
+| contractKeyUID |  |
+|  |  |
 
-'
+
+
+
+
+
 
 #### Templates, Agreements and Parameters
 
@@ -131,4 +148,10 @@ A template may contain both legal prose and parameters. Each parameter has an id
 ~~A Viable Systems Model approach~~
 
 ~~Contracts~~
+
+### Linking Legal Agreements to Contracts and Events
+
+This referencing of the legal agreement from the`Contract`is done through the`documentation`attribute. Alongside with providing the ability to identify some of the key terms of a governing legal agreement \(such as the agreement identifier, the publisher, the document vintage and the agreement date\) as part of the`documentationIdentification`attribute, the associated`Documentation`class provides the ability to reference a legal agreement that is electronically represented on-chain through the`legalAgreement`attribute, which has a reference key into the instance agreement.
+
+The below snippet represents this`Documentation`class, which`legalAgreement`attribute carries the`reference`qualifier.
 
