@@ -1,3 +1,19 @@
+
+
+# 
+
+# "The Magi" 
+
+# Protocol Outline 
+
+
+
+
+
+
+
+
+
 protocol
 
 ```markdown
@@ -128,12 +144,6 @@ Deep Dependency:
 | lineage |  |
 | contractKeyUID |  |
 |  |  |
-
-
-
-
-
-
 
 #### Templates, Agreements and Parameters
 
