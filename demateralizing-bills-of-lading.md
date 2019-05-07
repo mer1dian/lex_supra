@@ -60,8 +60,6 @@ Replacement of a transferable document or instrument with an electronic transfer
 
 4. A change of medium in accordance with paragraphs 1 and 2 shall not affect the rights and obligations of the parties.
 
-
-
 ### Meeting MLETR Requirements
 
 ### 
@@ -101,10 +99,6 @@ Replacement of a transferable document or instrument with an electronic transfer
 5. Auditing 
 6. External assessments 
 7. Regulatory Oversight and Compliance
-
-
-
-
 
 
 
