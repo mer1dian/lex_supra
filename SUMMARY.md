@@ -1,0 +1,21 @@
+# Summary
+
+* [Introduction](README.md)
+* [First Chapter](chapter1.md)
+* [Demateralizing Bills of Lading](demateralizing-bills-of-lading.md)
+* [FreightTrust Architecture ](freighttrust-architecture.md)
+* [Forward Contracts](forward-contracts.md)
+* [Protocol ](protocol.md)
+* [Safety and Continiuty ](safety-and-continiuty.md)
+* [Parametric Forwards](parametric-forwards.md)
+* [Legal Structure](legal-structure.md)
+* [Demateralizing Bills of Lading](demateralizing-bills-of-lading.md)
+* [Operational Safeguards](operational-safeguards.md)
+* [Similarities to existing regulatory frameworks](similarities-to-existing-regulatory-frameworks.md)
+* [References](references.md)
+* [Issues & Concerns](issues-and-concerns.md)
+* [Regulatory Framework](regulatory-framework.md)
+* [U.S. States Assesment](us-states-assesment.md)
+* [Parametric Contracts](parametric-contracts.md)
+* [EIP Roadmaps](eip-roadmaps.md)
+
