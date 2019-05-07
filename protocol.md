@@ -1,9 +1,5 @@
 protocol
 
-
-
-
-
 ```markdown
 Contract Instrument 
 
@@ -12,8 +8,6 @@ Unique Address
 Agreement Identifier 
 
 Data Field for Signature Injection <Triggering_Event>
-
-
 ```
 
 Semi-NFT
@@ -23,8 +17,8 @@ Semi-NFT
 | ERC1400 |
 | ERC1643 Document Managment |
 | ERC1154 |
-|  |
-|  |
+| "Bishop" Kernel  |
+| "Fulcrum" Adaptor |
 
 **ERC777 implementation - Advanced token standard for asset transfers**
 
@@ -134,15 +128,7 @@ A template may contain both legal prose and parameters. Each parameter has an id
 
 ---
 
+A Viable Systems Model approach
 
-
-A Viable Systems Model approach 
-
-
-
-
-
-Contracts 
-
-
+Contracts
 

@@ -16,19 +16,13 @@ Parametric Contract support
 
 Qualified Electronic Signatures
 
-"Red Queen" Kernel Stack
+~~"Red Queen" Kernel Stack~~
 
-"Auftragstaktik" Contract Adapter
+~~"Auftragstaktik" Contract Adapter~~
 
 x.509 Certificate Authority \(Freight Trust\)
 
-
-
-
-
-Semi Fungible Tokenization 
-
-
+Semi Fungible Tokenization
 
 
 
