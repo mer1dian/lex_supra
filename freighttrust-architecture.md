@@ -4,7 +4,7 @@
 
 Electronic-to-Paper Documentation and Authentication
 
-Semi-Fungible Tokenized Instrumentation 
+Semi-Fungible Tokenized Instrumentation
 
 Master Covenant \(legal Framework for network participants, similar to ISDA\)
 
@@ -14,17 +14,19 @@ Qualified Electronic Signatures and Trusted Service Provider
 
 x.509 Certificate Authority \(Freight Trust\)
 
-
-
 **Downstream Features:**
 
 Novation
 
 Multilateral Netting
 
-Special Purpose Vehicles 
+Special Purpose Vehicles
 
-Perpetual Contracts 
+Perpetual Contracts
 
 UCC Collateral Filings
+
+
+
+![](/treetop_overview.png)
 
