@@ -183,17 +183,9 @@ Notwithstanding any other provision of this chapter, a warehouse operator not li
 
 ## Key Takeaways
 
-
-
-
-
 ### Terms suggested for RuleBook
 
-
-
 > Source: Miriam Goldby
-
-
 
 **Regulations issued under Section 1\(5\) of COGSA 1992**
 
@@ -226,6 +218,54 @@ Notwithstanding any other provision of this chapter, a warehouse operator not li
 5. Auditing 
 6. External assessments 
 7. Regulatory Oversight and Compliance
+
+
+
+## XML Generated BOL Interface 
+
+## 
+
+    ```
+    <?xml version="1.0" encoding="UTF-8"?>
+    <BillOfLading
+     xmlns="urn:oasis:names:specification:ubl:schema:xsd:BillOfLading-2"
+     xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+     xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+     <cbc:UBLVersionID/>
+     <cbc:CustomizationID/>
+     <cbc:ID/>
+     <cbc:CarrierAssignedID/>
+     <cbc:UUID/>
+     <cbc:IssueDate/>
+     <cbc:IssueTime/>
+     <cbc:Note/>
+     <cbc:DocumentStatusCode/>
+     <cbc:DeclaredCarriageValueAmount/>
+     <cac:ConsignorParty/>
+     <cac:CarrierParty/>
+     <cac:FreightForwarderParty/>
+     <cac:Shipment/>
+     <cac:DocumentReference>
+      <cbc:ID/>
+     </cac:DocumentReference>
+     <cac:Signature>
+      <cbc:ID/>
+     </cac:Signature>
+     <cac:Signature>
+      <cbc:ID/>
+     </cac:Signature>
+
+
+     <ary: ChainID>
+     <ary: HashChainID>
+     <ary: contractNameAdress>
+
+
+    </BillOfLading>
+    ```
+
+  
+
 
 
 
