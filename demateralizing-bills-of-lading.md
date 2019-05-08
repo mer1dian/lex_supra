@@ -183,17 +183,9 @@ Notwithstanding any other provision of this chapter, a warehouse operator not li
 
 ## Key Takeaways
 
-
-
-
-
 ### Terms suggested for RuleBook
 
-
-
 > Source: Miriam Goldby
-
-
 
 **Regulations issued under Section 1\(5\) of COGSA 1992**
 
