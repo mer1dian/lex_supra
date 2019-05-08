@@ -219,14 +219,25 @@ Notwithstanding any other provision of this chapter, a warehouse operator not li
 6. External assessments 
 7. Regulatory Oversight and Compliance
 
-
-
-## XML Generated BOL Interface 
+## XML Generated BOL Interface
 
 ## 
 
-    ```
+```
     <?xml version="1.0" encoding="UTF-8"?>
+    
+    <xs:complexType name="DocumentIdentification">
+    <xs:sequence>
+      <xs:element name="Standard" type="xs:string"/>
+      <xs:element name="TypeVersion" type="xs:string"/>
+      <xs:element name="InstanceIdentifier" type="xs:string"/>
+      <xs:element name="Type" type="xs:string"/>
+      <xs:element name="MultipleType" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="CreationDateAndTime" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  
     <BillOfLading
      xmlns="urn:oasis:names:specification:ubl:schema:xsd:BillOfLading-2"
      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
@@ -262,10 +273,7 @@ Notwithstanding any other provision of this chapter, a warehouse operator not li
 
 
     </BillOfLading>
-    ```
-
-  
-
+```
 
 
 
