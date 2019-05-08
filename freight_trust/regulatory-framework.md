@@ -1,3 +1,25 @@
+
+
+## R Token - Regulatory Oversight enabled Token
+
+> Source: R-Token Whitepaper, &lt;[https://harbor.com/rtokenwhitepaper.pdf](https://harbor.com/rtokenwhitepaper.pdf)&gt;
+
+Regulator Service The Regulator Service interface consists of a single check\(\) method that is called from within the transfer\(\) and transferFrom\(\) method. This check contains all information provided during the transfer:
+
+
+
+```
+contract RegulatorService {
+function check(address _token,
+address _spender,
+address _from,
+address _to,
+uint256 _amount) public returns (uint8);
+}
+```
+
+
+
 Establishing a legal framework within existing regulations
 
 p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.5px 'Times New Roman'}
@@ -50,16 +72,12 @@ Although the precise expectations for any given MSB will vary based on the natur
 * maintaining required records;621 and
 * responding to certain law enforcement requests.62
 
-
-
-> | In December 2015, the Tennessee Department of Financial Institutions issued a memorandum concluding that the transmission of cryptocurrency is not subject to regulation under the State’s Money Transmitter Act if the transmission does not also involve sovereign currency. The memorandum also discusses other common scenarios. |
-> | :--- |
+> \| In December 2015, the Tennessee Department of Financial Institutions issued a memorandum concluding that the transmission of cryptocurrency is not subject to regulation under the State’s Money Transmitter Act if the transmission does not also involve sovereign currency. The memorandum also discusses other common scenarios. \|  
+> \| :--- \|
 
 # 
 
 EuroZone
-
-
 
 MiFID II is a European Directive that regulates firms that provide services to clients linked to “financial instruments” and the venues in which those instruments trade in the European Union.636 Broadly speaking, MiFID II “aims to create a single market for investment services and activities and to ensure a high degree of harmonised protection for investors in financial instruments.”637 Firms that provide investment services in relation to financial instruments, as defined in MiFID II, in turn must comply with MiFID II requirements.638
 

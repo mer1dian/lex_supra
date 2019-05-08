@@ -1,8 +1,22 @@
+# 
+
+# "The Magi"
+
+# Protocol Outline
+
+
+
+
+
+
+
+
+
+
+
+
+
 protocol
-
-
-
-
 
 ```markdown
 Contract Instrument 
@@ -12,8 +26,6 @@ Unique Address
 Agreement Identifier 
 
 Data Field for Signature Injection <Triggering_Event>
-
-
 ```
 
 Semi-NFT
@@ -23,8 +35,8 @@ Semi-NFT
 | ERC1400 |
 | ERC1643 Document Managment |
 | ERC1154 |
-|  |
-|  |
+| "Bishop" Kernel |
+| "Fulcrum" Adaptor |
 
 **ERC777 implementation - Advanced token standard for asset transfers**
 
@@ -111,7 +123,7 @@ Deep Dependency:
  External dependency referenced via the build\_dependencies of a package dependency \(or by reaching down dependency tree as far as necessary\).
 ```
 
-|  |  |
+| &lt;/&gt; | Action |
 | :--- | :--- |
 | defaultOperator | Freight Trust, _Network Operations _ |
 | AuthorizedOperator | 3rd Party \(e.g. Invoice Factoring, Insurance, etc\) |
@@ -121,8 +133,19 @@ Deep Dependency:
 | hasAttribute |  |
 | symbol | Self Describing Contract Parameters |
 |  |  |
-
-'
+| **Legal Aspects** |  |
+| documentationIdentification |  |
+| legalAgreement |  |
+| masterAgreement |  |
+| tradeAgreement |  |
+| uniqueAgreement |  |
+| effectiveDate |  |
+| eventDate |  |
+| eventQualifier |  |
+| eventIdentifier |  |
+| lineage |  |
+| contractKeyUID |  |
+|  |  |
 
 #### Templates, Agreements and Parameters
 
@@ -134,15 +157,13 @@ A template may contain both legal prose and parameters. Each parameter has an id
 
 ---
 
+~~A Viable Systems Model approach~~
 
+~~Contracts~~
 
-A Viable Systems Model approach 
+### Linking Legal Agreements to Contracts and Events
 
+This referencing of the legal agreement from the`Contract`is done through the`documentation`attribute. Alongside with providing the ability to identify some of the key terms of a governing legal agreement \(such as the agreement identifier, the publisher, the document vintage and the agreement date\) as part of the`documentationIdentification`attribute, the associated`Documentation`class provides the ability to reference a legal agreement that is electronically represented on-chain through the`legalAgreement`attribute, which has a reference key into the instance agreement.
 
-
-
-
-Contracts 
-
-
+The below snippet represents this`Documentation`class, which`legalAgreement`attribute carries the`reference`qualifier.
 
