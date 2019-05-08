@@ -18,4 +18,5 @@
 * [U.S. States Assesment](us-states-assesment.md)
 * [Parametric Contracts](parametric-contracts.md)
 * [EIP Roadmaps](eip-roadmaps.md)
+* [Black Queen](black-queen.md)
 
