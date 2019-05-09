@@ -16,3 +16,15 @@ Under the revised test, an agreement, contract or transaction with EVO may still
 
 
 
+
+
+
+
+## Mutual Assurance Gurantee Contract
+
+## 
+
+Transaction Fee Premimum based on chance of default , how computed 
+
+
+
