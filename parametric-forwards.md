@@ -20,8 +20,6 @@ Under the revised test, an agreement, contract or transaction with EVO may still
 
 Transaction Fee Premimum based on chance of default , how computed
 
-
-
 **Requirements**
 
 For a successful digital representation of the said features, we identify the following requirements:

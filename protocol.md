@@ -4,18 +4,6 @@
 
 # Protocol Outline
 
-
-
-
-
-
-
-
-
-
-
-
-
 protocol
 
 ```markdown
@@ -26,17 +14,31 @@ Unique Address
 Agreement Identifier 
 
 Data Field for Signature Injection <Triggering_Event>
+
+137
+191
+725
+777
+1077
+1154
+1400
+1613
+1775
+
+
 ```
 
 Semi-NFT
 
-| ERC777 |
-| :--- |
-| ERC1400 |
-| ERC1643 Document Managment |
-| ERC1154 |
-| "Bishop" Kernel |
-| "Fulcrum" Adaptor |
+| ERC777 |  |
+| :--- | :--- |
+| ERC1400 |  |
+| ERC1643 Document Managment |  |
+| ERC1154 |  |
+| EIP 1077: Executable Signed Messages |  |
+| EIP 1775 |  |
+| "Bishop" Kernel |  |
+| "Fulcrum" Adaptor |  |
 
 **ERC777 implementation - Advanced token standard for asset transfers**
 
