@@ -1,24 +1,73 @@
-protocol
+# 
+
+# Protocol Outline
+
+100% EDI
+
+100% Electronic to Paper
+
+#### 
+
+#### 
+
+#### Protocol Structure
+
+A protocol consists of the following components:
+
+* **Exchange**
+  . The protocol exchange is the series of messages exchanged between all parties in the state channel, as well as dependencies between messages.
+* **Message**
+  . A message is the set of information that must be exchanged by the parties to recreate and validate the commitment signatures and associated transactions that those signatures enable. Each protocol may in general contain multiple message types.
+* **Commitments**
+  . A protocol produces one or more commitments. Both the signatures and the data contained within the commitments must be stored.
+
+
+
+
+
+## Freight Protocol
+
+## 
 
 ```markdown
-Contract Instrument 
+,  
 
-Unique Address
+Unique Address, 0x
 
-Agreement Identifier 
+Agreement Identifier, 
 
-Data Field for Signature Injection <Triggering_Event>
+x.509 Cert
+
+XML
+
+
+Contract Instrument Semi-NFT 
+STANDARDS UTILIZED 
+
+137
+191
+725
+777
+1077
+1154
+1400
+1613
+1775
 ```
 
-Semi-NFT
 
-| ERC777 |
-| :--- |
-| ERC1400 |
-| ERC1643 Document Managment |
-| ERC1154 |
-| "Bishop" Kernel |
-| "Fulcrum" Adaptor |
+
+#### Contract Instrument Semi-NFT
+
+|  |  |
+| :--- | :--- |
+| ERC1400 |  |
+| ERC1643 Document Managment |  |
+| ERC1154 |  |
+| EIP 1077: Executable Signed Messages |  |
+| EIP 1775 |  |
+| "Bishop" Kernel |  |
+| "Fulcrum" Adaptor |  |
 
 **ERC777 implementation - Advanced token standard for asset transfers**
 
@@ -35,29 +84,27 @@ Semi-NFT
 * Document management.
 * Backwards compatible with ERC20 and ERC777.
 
-Ethereum Registration Authority / Trusted Certificate Authority
+**Ethereum Registration Authority / Trusted Certificate Authority**
 
 ```
+Data Field for Signature Injection <Triggering_Event>
+
 function transferWithData(address recipient, uint256 value, bytes data)
 ```
 
-**ERC1643 implementation - Self Describing Address and Document Managment for Analog Contracts**
+**ERC1643 implementation**
 
-* AddressID specifices which package is used for that operation/interogatives and subordinate clauses  
-* Enables Agreement to be as homogonized or unique as needed, thereby extending possiblity of liquidity 
-* Eth
+AddressID specifices which package is used for that operation/interogatives and subordinate clauses
 
-~~**Proprietary ERC &lt;EIP&gt;**~~
+Enables Agreement to be as homogonized or unique as needed, thereby extending possiblity of liquidity
 
-~~TransformAttribute~~
 
-~~TranformInterface~~
 
-~~DefineTransformInterface~~
 
-~~InvokeEmission~~
 
-Smart Contract
+### Smart Contract Package
+
+### 
 
 a **registry** is a deployed contract which manages a collection of packages.
 
@@ -79,31 +126,41 @@ the **Kernel** compromises interlocking contracts that execute operations by inv
 Registry -> Package [libsol, kernel...] -> Release [specific contract updates] -> latest release
 ```
 
-Stand Alone:    Package has no external dependencies \(i.e. no build\_dependencies\), contains all contract data needed without reaching into another package.
 
-Dependent:    Package does not contain all necessary contract data \(i.e. has build\_dependencies\), must reach into a package dependency to retrieve data.
 
-Inheritable:    Contract doesn’t provide useful functionality on it’s own and is meant to serve as a base contract for others to inherit from.
+**Stand Alone:**    Package has no external dependencies \(i.e. no build\_dependencies\), contains all contract data needed without reaching into another package.
 
-Reusable:    Contract is useful on it’s own, meant to be used as-is.
+**Dependent:   ** Package does not contain all necessary contract data \(i.e. has build\_dependencies\), must reach into a package dependency to retrieve data.
 
-Deployed Contract/Library:
+**Inheritable**:    Contract doesn’t provide useful functionality on it’s own and is meant to serve as a base contract for others to inherit from.
+
+**Reusable: **   Contract is useful on it’s own, meant to be used as-is. This applies only to kernel level contracts.
+
+
+
+**Deployed Contract/Library:**
 
 ```
  Refers to an instance of a contract/library that has already been deployed to a specific address on a chain.
 ```
 
-Package Dependency:
+**Package Dependency:**
 
 ```
- External dependency directly referenced via the build\_dependencies of a package.
+ External dependency directly referenced via the build\_dependencies of the package.
 ```
 
-Deep Dependency:
+**Deep Dependency:**
 
 ```
- External dependency referenced via the build\_dependencies of a package dependency \(or by reaching down dependency tree as far as necessary\).
+ External dependency referenced via the build\_dependencies of a package dependency 
+ (or by reaching down dependency tree as far as necessary\).
+ 
 ```
+
+
+
+
 
 | &lt;/&gt; | Action |
 | :--- | :--- |
@@ -128,12 +185,6 @@ Deep Dependency:
 | lineage |  |
 | contractKeyUID |  |
 |  |  |
-
-
-
-
-
-
 
 #### Templates, Agreements and Parameters
 
