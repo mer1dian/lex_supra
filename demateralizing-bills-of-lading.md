@@ -225,7 +225,7 @@ Notwithstanding any other provision of this chapter, a warehouse operator not li
 
 ```
     <?xml version="1.0" encoding="UTF-8"?>
-    
+
     <xs:complexType name="DocumentIdentification">
     <xs:sequence>
       <xs:element name="Standard" type="xs:string"/>
@@ -236,8 +236,8 @@ Notwithstanding any other provision of this chapter, a warehouse operator not li
       <xs:element name="CreationDateAndTime" type="xs:dateTime"/>
     </xs:sequence>
   </xs:complexType>
-  
-  
+
+
     <BillOfLading
      xmlns="urn:oasis:names:specification:ubl:schema:xsd:BillOfLading-2"
      xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
@@ -276,4 +276,190 @@ Notwithstanding any other provision of this chapter, a warehouse operator not li
 ```
 
 
+
+
+
+---
+
+
+
+
+
+### Warning
+
+### The bar code symbology used must be the EAN.UCC-128. 
+
+### The Application Identifiers \(AI’s\) are not part of the actual data. The AI is only used at the point of scanning to determine data type and/or size for application system processing. If you choose to implement the bar coding of the BOL number and/or SCAC and Pro\# for a carrier, be sure that the carrier is aware of the above requirements.
+
+
+
+
+
+---
+
+
+
+
+
+Bills of Lading have 2 groups: FTL and LTL
+
+
+
+LTL
+
+
+
+### Rules of Use for the Standard Bill of Lading
+
+### 
+
+> source: VICS BOL Standard
+
+
+
+The guidelines to the Bill of Lading are designed so that the U.S. industry may benefit from a form
+
+that is consistent and understandable. The standard VICS BOL is intended for U.S. LTL and TL
+
+ground transport. It is particularly critical that all businesses using the form adhere to its design so
+
+that the supply chain may take advantage of these benefits. Listed below is additional detail
+
+regarding the use of the standard Bill of Lading.
+
+1. Adjustments to the VICS Bill of Lading can be made based on the following guidelines:
+
+The geographical placement of data and data descriptions must be kept intact according to this
+
+standard. This is important to ensure that all parties within the supply chain will know where to
+
+locate the specific information they need.
+
+Each section or data description area may be modified to fit the supply chain business
+
+requirements as follows:
+
+• Spacing
+
+• Column width
+
+• Row height
+
+• Removal of the data lines in the Customer and Carrier Information sections when either
+
+the form or data is computer printed.
+
+• When the form is loaded into a software program, all sections shall be clearly identified
+
+and the appropriate form lines and headings must be present.
+
+• To support North America cross boarder ground shipments, the section headings can be
+
+modified to include bilingual wording.
+
+Note: If cube information is being provided, the cube data column should be inserted between
+
+the Weight and Pallet/Slip column in the Customer Order Section.
+
+2. The following data must be 12-point Bold:
+
+a\) Bill of Lading number c\) Ship to Location number
+
+b\) SCAC/Pro number d\) Customer Order Number
+
+When printing processes do not allow for variances in point size and bolding, the above data
+
+must be displayed with adequate spacing and high quality printing to support ease of recognition
+
+and data entry by the carriers. The CID number shall be in 10-point and bolded. All other data
+
+input items may be in a 10-point or smaller \(See Section I Page 3 & 4 on legal statements\), no
+
+bolding.
+
+3. Printing: The standard Bill of Lading may be duplicated and printed in multiple part forms by
+
+any printing company or shipper. If the Supplement page is used, the best practice has been to
+
+print the Supplement page\(s\) first, then print the front Bill of Lading page with the Grand Totals
+
+last. The Bill of Lading page must then be placed in front of the Supplement page\(s\).
+
+4. Pagination: In general, each bill of lading \(including any supplement pages\) and attachments are
+
+considered separate documents. For example:
+
+a\) BOL with 3 supplement pages:
+
+BOL = page 1, Supplement = pages 2, 3 and 4
+
+b\) Master BOL with 2 underlying BOL’s; underlying BOL’s with 2 supplement pages:
+
+Master BOL = page 1, First underlying BOL = page 1, supplement pages = 2, 3
+
+Second underlying BOL = page 1, supplement pages =2, 3.
+
+c\) BOL with an attachment \(e.g., packing list and /or shipping manifest\):
+
+BOL = page 1, attachment one = pages 1, 2…, attachment two = pages 1, 2…. 
+
+IV. Rules of Use for the Standard Bill of Lading
+
+14
+
+5. The Bill of Lading is not to be used as a packing list; the packing list is to be on a separate
+
+document. In addition, the following items are not part of the Bill of Lading and shall not be
+
+included on the Bill of Lading. However, these documents are considered as potential
+
+attachments to the Bill of Lading.
+
+• Packing List line item information.
+
+• Shipping Manifest - The Shipping Manifest is a document generated by the shipper for a
+
+customer pertaining to store shipments that are shipped to a customer specified
+
+intermediate location \(i.e., distribution center, consolidator\) with the individual cartons
+
+marked for specific store locations. The manifest contains store level detail that
+
+typically includes store location numbers, store addresses, customer order numbers,
+
+number of cartons per order per store and weight/cube totals.
+
+• Hazardous Item List \(See Section VII. Hazardous Materials Regulations for
+
+instructions\)
+
+See Appendix E for recommended format, detailed data content explanation and examples.
+
+6. The Canadian PARS sticker for customs belongs on the freight invoice, not on the Bill of
+
+Lading.
+
+7. The information conveyed through EDI \(e.g. EDI 856, 204, 211, 214\) shall be consistent with
+
+the information on the paper Bill of Lading. This in no way implies that all information
+
+conveyed through any one EDI document will map one-to- one to the paper Bill of Lading.
+
+8. When using the Supplement Page to list customer order number and commodity information,
+
+state “See attached Bill of Lading Supplement” in the body of the first page and begin listing the
+
+information on the supplement page. Only the grand total of the cartons and weight for the
+
+shipment will be detailed on the first page.
+
+9. No Bill of Lading information shall be placed on the back of the Bill of Lading page. This area
+
+is reserved for the terms and conditions of the contract on the preprinted forms.
+
+10. Additional printing considerations and options.
+
+A. Data tags can be used in the Customer Order Information Section to identify multiple data
+
+elements that may be required by the consignee
 
