@@ -275,47 +275,25 @@ Notwithstanding any other provision of this chapter, a warehouse operator not li
     </BillOfLading>
 ```
 
-
-
-
-
 ---
-
-
-
-
 
 ### Warning
 
-### The bar code symbology used must be the EAN.UCC-128. 
+### The bar code symbology used must be the EAN.UCC-128.
 
 ### The Application Identifiers \(AI’s\) are not part of the actual data. The AI is only used at the point of scanning to determine data type and/or size for application system processing. If you choose to implement the bar coding of the BOL number and/or SCAC and Pro\# for a carrier, be sure that the carrier is aware of the above requirements.
 
-
-
-
-
 ---
 
+Bills of Lading have 3 groups: Master, FTL and LTL
 
-
-
-
-Bills of Lading have 2 groups: FTL and LTL
-
-
-
-LTL
-
-
+#### LTL
 
 ### Rules of Use for the Standard Bill of Lading
 
 ### 
 
 > source: VICS BOL Standard
-
-
 
 The guidelines to the Bill of Lading are designed so that the U.S. industry may benefit from a form
 
@@ -361,7 +339,7 @@ Note: If cube information is being provided, the cube data column should be inse
 
 the Weight and Pallet/Slip column in the Customer Order Section.
 
-2. The following data must be 12-point Bold:
+1. The following data must be 12-point Bold:
 
 a\) Bill of Lading number c\) Ship to Location number
 
@@ -377,7 +355,7 @@ input items may be in a 10-point or smaller \(See Section I Page 3 & 4 on legal 
 
 bolding.
 
-3. Printing: The standard Bill of Lading may be duplicated and printed in multiple part forms by
+1. Printing: The standard Bill of Lading may be duplicated and printed in multiple part forms by
 
 any printing company or shipper. If the Supplement page is used, the best practice has been to
 
@@ -385,7 +363,7 @@ print the Supplement page\(s\) first, then print the front Bill of Lading page w
 
 last. The Bill of Lading page must then be placed in front of the Supplement page\(s\).
 
-4. Pagination: In general, each bill of lading \(including any supplement pages\) and attachments are
+1. Pagination: In general, each bill of lading \(including any supplement pages\) and attachments are
 
 considered separate documents. For example:
 
@@ -401,13 +379,13 @@ Second underlying BOL = page 1, supplement pages =2, 3.
 
 c\) BOL with an attachment \(e.g., packing list and /or shipping manifest\):
 
-BOL = page 1, attachment one = pages 1, 2…, attachment two = pages 1, 2…. 
+BOL = page 1, attachment one = pages 1, 2…, attachment two = pages 1, 2….
 
 IV. Rules of Use for the Standard Bill of Lading
 
 14
 
-5. The Bill of Lading is not to be used as a packing list; the packing list is to be on a separate
+1. The Bill of Lading is not to be used as a packing list; the packing list is to be on a separate
 
 document. In addition, the following items are not part of the Bill of Lading and shall not be
 
@@ -435,17 +413,17 @@ instructions\)
 
 See Appendix E for recommended format, detailed data content explanation and examples.
 
-6. The Canadian PARS sticker for customs belongs on the freight invoice, not on the Bill of
+1. The Canadian PARS sticker for customs belongs on the freight invoice, not on the Bill of
 
 Lading.
 
-7. The information conveyed through EDI \(e.g. EDI 856, 204, 211, 214\) shall be consistent with
+1. The information conveyed through EDI \(e.g. EDI 856, 204, 211, 214\) shall be consistent with
 
 the information on the paper Bill of Lading. This in no way implies that all information
 
 conveyed through any one EDI document will map one-to- one to the paper Bill of Lading.
 
-8. When using the Supplement Page to list customer order number and commodity information,
+1. When using the Supplement Page to list customer order number and commodity information,
 
 state “See attached Bill of Lading Supplement” in the body of the first page and begin listing the
 
@@ -453,13 +431,59 @@ information on the supplement page. Only the grand total of the cartons and weig
 
 shipment will be detailed on the first page.
 
-9. No Bill of Lading information shall be placed on the back of the Bill of Lading page. This area
+1. No Bill of Lading information shall be placed on the back of the Bill of Lading page. This area
 
 is reserved for the terms and conditions of the contract on the preprinted forms.
 
-10. Additional printing considerations and options.
+1. Additional printing considerations and options.
 
 A. Data tags can be used in the Customer Order Information Section to identify multiple data
 
 elements that may be required by the consignee
+
+
+
+Use of Master Bill of Lading
+
+16
+
+A Master Bill of Lading is created for three shipment scenarios:
+
+1. Consolidation shipments
+
+2. Invoice per Bill of Lading per customer order
+
+3. Truckload shipments with multiple stops
+
+For these scenarios, the purpose of the Master Bill of Lading is to tie the underlying Bills of Lading
+
+together into one shipment for freight rating and billing purposes.
+
+The standard Bill of Lading is used as a Master Bill of Lading by checking the “Master Bill of
+
+Lading” indicator box. The underlying Bill of Lading numbers shall be referenced in the Special
+
+Instructions field on the Master Bill of Lading. The Master Bill of Lading number shall be
+
+referenced in the Special Instructions field on the underlying Bills of Lading.
+
+The development of the Supplement Page to the Bill of Lading eliminates the use of a Master Bill of
+
+Lading for the purpose of needing more lines to fit all the information on one page \(see section V\).
+
+The Master Bill of Lading shall not be used for this purpose.
+
+Often a Master Bill of Lading, with underlying Bills of Lading attached, is used in conjunction with
+
+the 856 Ship Notice Manifest and the 214 Carrier Shipment Status EDI transaction sets. In this case,
+
+the Master Bill of Lading number is the number that is transmitted on the EDI transaction
+
+sets representing that shipment. Do not transmit the underlying Bill of Lading numbers as that
+
+causes confusion as to which Bill of Lading number is the one to be used.
+
+The use of a Master Bill of Lading is a complex aspect of shipping that may be better shown by
+
+example. Below are business scenarios of how a Master Bill of Lading should be used. 
 
