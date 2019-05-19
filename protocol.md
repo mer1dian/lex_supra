@@ -21,10 +21,6 @@ A protocol consists of the following components:
 * **Commitments**
   . A protocol produces one or more commitments. Both the signatures and the data contained within the commitments must be stored.
 
-
-
-
-
 ## Freight Protocol
 
 ## 
@@ -42,6 +38,7 @@ XML
 
 
 Contract Instrument Semi-NFT 
+
 STANDARDS UTILIZED 
 
 137
@@ -53,9 +50,12 @@ STANDARDS UTILIZED
 1400
 1613
 1775
+
+NEW
+
+?NUM0x1
+?NUM0x2
 ```
-
-
 
 #### Contract Instrument Semi-NFT
 
@@ -100,7 +100,9 @@ Enables Agreement to be as homogonized or unique as needed, thereby extending po
 
 
 
+?NUM0x1
 
+Assign
 
 ### Smart Contract Package
 
@@ -126,8 +128,6 @@ the **Kernel** compromises interlocking contracts that execute operations by inv
 Registry -> Package [libsol, kernel...] -> Release [specific contract updates] -> latest release
 ```
 
-
-
 **Stand Alone:**    Package has no external dependencies \(i.e. no build\_dependencies\), contains all contract data needed without reaching into another package.
 
 **Dependent:   ** Package does not contain all necessary contract data \(i.e. has build\_dependencies\), must reach into a package dependency to retrieve data.
@@ -135,8 +135,6 @@ Registry -> Package [libsol, kernel...] -> Release [specific contract updates] -
 **Inheritable**:    Contract doesn’t provide useful functionality on it’s own and is meant to serve as a base contract for others to inherit from.
 
 **Reusable: **   Contract is useful on it’s own, meant to be used as-is. This applies only to kernel level contracts.
-
-
 
 **Deployed Contract/Library:**
 
@@ -155,12 +153,7 @@ Registry -> Package [libsol, kernel...] -> Release [specific contract updates] -
 ```
  External dependency referenced via the build\_dependencies of a package dependency 
  (or by reaching down dependency tree as far as necessary\).
- 
 ```
-
-
-
-
 
 | &lt;/&gt; | Action |
 | :--- | :--- |
