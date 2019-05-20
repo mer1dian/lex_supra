@@ -1,6 +1,37 @@
-Title
+# Neutral Legal Framework based upon Lex Meroatoria and the Common Law System
+
+
+
+IncoTerms  
+UCC  
+UNICALDRIOT
+
+
 
 Two Modes: National and International
+
+
+
+
+
+
+
+
+
+| Contract Function | Parties  |
+| :--- | :--- |
+| Master Covenant  | Mandatory, All Network Participants   |
+| RuleBook Agreement | Mandatory, All Commerical Orgs. |
+| Master Participation Agreement | Mandatory for B2B  |
+| Network Operator Agreement | Mandatory for Node Operators |
+| Transactional Clauses | Specific to Transaction Type |
+| Amendment Clauses | Specific to Jurisdictional Area |
+| Business Terms and Conditions  | Unique to specific Business Entity |
+| Intergration Clause | Mandatory, All Agreements  |
+
+
+
+
 
 National excludes lex mercatoria
 
@@ -18,8 +49,6 @@ Clause <#> – Network Model Clause ?ref
 This contract shall be governed by the law of [State X] interpreted and supplemented
 by the Freight Trust Rule Book version <#>
 ```
-
-
 
 ```
 Clause 6.1
