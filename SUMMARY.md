@@ -19,4 +19,6 @@
 * [Parametric Contracts](parametric-contracts.md)
 * [EIP Roadmaps](eip-roadmaps.md)
 * [Black Queen](black-queen.md)
+* [On design considerations for rulebook](on-design-considerations-for-rulebook.md)
+* [Alternative Neutral Legal Framework](alternative-neutral-legal-framework.md)
 
