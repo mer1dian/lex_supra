@@ -4,8 +4,6 @@ IncoTerms
 UCC  
 UNICALDRIOT
 
-
-
 To a lawyer, a legal contract has a distinct meaning:
 
 A contract is an agreement giving rise to obligations which are enforced or recognised by law. The
@@ -14,39 +12,29 @@ factor which distinguishes contractual from other legal obligations is that they
 
 agreement of the contracting parties7.
 
-
-
-For a contract to be valid, legal systems will impose certain requirements. Under English law, there are four key elements that must \(usually\) be satisfied: 
-
-
+For a contract to be valid, legal systems will impose certain requirements. Under English law, there are four key elements that must \(usually\) be satisfied:
 
 \(i\) one of the contracting parties must make
 
-an offer to contract and the other\(s\) must accept that offer; 
+an offer to contract and the other\(s\) must accept that offer;
 
 \(ii\) there must be ‘consideration’ for the
 
-offer, this being some form of value that must be exchanged; 
+offer, this being some form of value that must be exchanged;
 
-\(iii\) the parties must have an intention to form legal relations; and 
+\(iii\) the parties must have an intention to form legal relations; and
 
 \(iv\) there must be certainty as to terms of the contract.
 
- 
+
 
 
 
 EXAMPLE:
 
-  
-p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.5px Times}  
-span.s1 {font: 6.0px Times}  
-
-
-
+To a lawyer, a legal contract has a distinct meaning:
 
 ```
-To a lawyer, a legal contract has a distinct meaning:
 A contract is an agreement giving rise to obligations which are enforced or recognised by law. The
 factor which distinguishes contractual from other legal obligations is that they are based on the
 agreement of the contracting parties7.
@@ -58,20 +46,14 @@ to form legal relations; and (iv) there must be certainty as to terms of the con
 law may have other requirements – for example, under New York law, many legal contracts must be
 in writing and signed to become binding.
 
-- ISDA, "Smart Contracts andDistributed Ledger – A LegalPerspective"
+- ISDA, "Smart Contracts and
+Distributed Ledger – A Legal
+Perspective"
 ```
-
-
 
 Other systems of law may have other requirements – for example, under New York law, many legal contracts must be
 
 in writing and signed to become binding.
-
-
-
-
-
-
 
 Two Modes: National and International
 
