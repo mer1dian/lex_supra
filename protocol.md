@@ -98,15 +98,17 @@ AddressID specifices which package is used for that operation/interogatives and 
 
 Enables Agreement to be as homogonized or unique as needed, thereby extending possiblity of liquidity
 
-
-
 ?NUM0x1
 
 Assign
 
-### Smart Contract Package
+### 
+
+---
 
 ### 
+
+## Smart Contract Package
 
 a **registry** is a deployed contract which manages a collection of packages.
 
@@ -178,6 +180,81 @@ Registry -> Package [libsol, kernel...] -> Release [specific contract updates] -
 | lineage |  |
 | contractKeyUID |  |
 |  |  |
+
+#### 
+
+#### 
+
+
+
+* [SystemController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#system_controller)
+* [DriverController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#driver_controller)
+* [ShipperController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#shipper_controller)
+* [CarrierController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#carrier_controller)
+* [ReceiverController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#receiver_controller)
+* [DriverPassportController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#driver_passport_controller)
+* [AddDriverController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#add_driver_controller)
+* [CreateDriverPassportController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#create_driver_passport_controller)
+* [UpdateDriverPassportController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#update_driver_passport_controller)
+* [ChangeDriverCarrierController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#change_driver_carrier_controller)
+* [RemoveDriverCarrierController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#remove_driver_carrier_controller)
+* [DailyLogDefectsReportController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#daily_log_defects_report_controller)
+* [DailyLogController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#daily_log_controller)
+* [DriverDailyLogTickController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#driver_daily_log_tick_controller)
+* [BillOfLadingController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#bill_of_lading_controller)
+* [DetentionController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#detention_controller)
+* [QuoteController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#quote_controller)
+* [LoadController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#load_controller)
+* [AssignDriverToLoadController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#assign_driver_to_load_controller)
+* [OriginArrivalController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#origin_arrival_controller)
+* [LoadPickupController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#load_pickup_controller)
+* [DestinationArrivalController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#destination_arrival_controller)
+* [LoadDropOffController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#load_drop_off_controller)
+* [ListLoadController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#list_load_controller)
+* [SubmitQuoteController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#submit_quote_controller)
+* [AcceptQuoteController](https://bitbucket.org/blockarraygroup/seal/src/AS2/#accept_quote_controller)
+
+####  Get singleton instance
+
+#### The singleton instance of the`SystemController`class can be accessed from the API Client.
+
+```
+SystemController system = client.System;
+```
+
+### GetSystemPing {#markdown-header-a-nameget_system_pinga-getsystemping}
+
+> _Tags:_`Skips Authentication`
+>
+> Test the connection to the network
+
+```
+Task
+<
+Models
+.
+PingResponse
+>GetSystemPing()
+```
+
+#### Example Usage {#markdown-header-example-usage}
+
+```
+Models
+.
+PingResponse
+result
+=
+await
+system
+.
+GetSystemPing
+()
+```
+
+#### 
+
+#### 
 
 #### Templates, Agreements and Parameters
 
