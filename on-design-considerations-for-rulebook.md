@@ -38,23 +38,25 @@ Rules...
 * that duplicate other laws
 * that have not undergone QA analysis within a specified time frame or approval process 
 
-
-
 ---
-
-
 
 ## RuleBook
 
 ## 
 
-**Authorized Representative.**
+### **Authorized Representative**
+
+
 
 \(a\) Each Network Participant shall designate one or more Authorized Representatives to sign all instruments, correct errors, perform such other duties as may be required under the Rules and transact all business in connection with the operations of FreightTrust. Each Network Participant must provide FreightTrust with current contact and other requested information for each of its Authorized Representatives.
 
+\(b\) To designate an Authorized Representative, a Clearing Participant must provide the information requested and conform to the procedures and requirements established by Eris Clearing. By agreeing to become an Authorized Representative, an individual agrees to be bound by the duties and responsibilities of an Authorized Representative and to be subject to, and comply with, the Rules and Obligations to the extent applicable.
 
+\(c\) Freight Trust will promptly notify a Network Participant of the approval of nominated Authorized Representatives and will maintain a list of all approved Authorized Representatives for each Network Participant. Freight Trustshall promptly notif the parties involved  if Freight Trust  \(i\) declines to approve the designation, \(ii\) revokes the designation, or \(iii\) suspends the designation of an Authorized Representative or/and Network Participant.
 
+\(d\) An Authorized Representative who is suspended remains subject to the Rules and jurisdiction throughout the period of suspension.
 
+\(e\) To request the termination of the designation of an Authorized Representative, the Network Participant or the Authorized Representative must notify Freight Trust providing the information and complying with the procedures and requirements established by Freight Trust.
 
-
+\(f\) An Authorized Representative remains subject to the Rules and the jurisdiction of Freight Trust for acts done and omissions made while registered as such, and a proceeding relating to an individual whose designation as an Authorized Representative or Network Participant and has been terminated or suspended shall occur as if the Authorized Representative were still registered as such.
 
