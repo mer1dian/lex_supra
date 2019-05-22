@@ -4,9 +4,7 @@
 
 ### Four Principles in creating IoL
 
-### 
-
-Four principles appear to be desirableand should insofar as it is possible be pursued together:
+_Four principles appear to be desirable and should insofar as it is possible be pursued together:_
 
 1. the promotion of certainty and predictability; 
 2. the promotion of uniformity of application;
@@ -41,6 +39,18 @@ Rules...
 * that have not undergone QA analysis within a specified time frame or approval process 
 
 
+
+---
+
+
+
+## RuleBook
+
+## 
+
+**Authorized Representative.**
+
+\(a\) Each Network Participant shall designate one or more Authorized Representatives to sign all instruments, correct errors, perform such other duties as may be required under the Rules and transact all business in connection with the operations of FreightTrust. Each Network Participant must provide FreightTrust with current contact and other requested information for each of its Authorized Representatives.
 
 
 
