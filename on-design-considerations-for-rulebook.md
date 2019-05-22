@@ -1,27 +1,17 @@
-
-
 # Instutionally offered Lex
 
 # 
 
-### Four Principles in creating IoL 
+### Four Principles in creating IoL
 
 ### 
 
 Four principles appear to be desirableand should insofar as it is possible be pursued together:
 
 1. the promotion of certainty and predictability; 
-2.  the promotion of uniformity of application;
-3.  the protection of democratic ideals andensuring of jurisprudential deliberation, 
-4.  the retention of efficiency.
-
-
-
-
-
-
-
-
+2. the promotion of uniformity of application;
+3. the protection of democratic ideals andensuring of jurisprudential deliberation, 
+4. the retention of efficiency.
 
 Systems based approach
 
@@ -49,6 +39,12 @@ Rules...
 * that interfere with other laws
 * that duplicate other laws
 * that have not undergone QA analysis within a specified time frame or approval process 
+
+
+
+
+
+
 
 
 
