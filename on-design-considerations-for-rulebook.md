@@ -139,3 +139,8 @@ Rules...
 
 \(f\) An Authorized Representative remains subject to the Rules and the jurisdiction of Freight Trust for acts done and omissions made while registered as such, and a proceeding relating to an individual whose designation as an Authorized Representative or Network Participant and has been terminated or suspended shall occur as if the Authorized Representative were still registered as such.
 
+
+### Dispute Resolution
+    (a) All Network Participants shall be required to arbitrate all disputes between or among themselves that relate to or arise out of any transaction submitted for *instrumentailization* in accordance with this Rule Book. For these purposes, each Network Participant shall be deemed a “Participant” for purposes of the rules set forth. Disputes involving Customers may be arbitrated in accordance to policy setforth in this Rule Book.
+    
+    
