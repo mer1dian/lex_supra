@@ -1,5 +1,25 @@
 # Instutionally offered Lex
 
+
+MainIssës
+
+Posession
+Holdership
+Singularity
+Uniqueness *UNCITRAL, 17(3)*
+Control
+Exclusive Control *Rotterdam*
+
+
+![](/assets/doc_of_title_legal_outline.png)
+##### Source: Miriam Goldby *Legal recognition of electronic alternatives to documents of title, 2011 *
+
+# Two Modes of Lex Operandi 
+## American and English
+
+#### English 
+Inclusion of Novation and Attornment 
+
 # 
 
 To a lawyer, a legal contract has a distinct meaning:
